@@ -1,0 +1,19 @@
+# OpenAI API Key for AI chat
+OPENAI_API_KEY=sk-proj-1234567890
+
+# Optional - Cloudflare AI Gateway https://developers.cloudflare.com/ai-gateway/
+# GATEWAY_BASE_URL=https://gateway.ai.cloudflare.com/v1/..
+
+# GitHub OAuth App credentials
+# Create a GitHub OAuth App at: https://github.com/settings/developers
+# Authorization callback URL: http://localhost:8787/api/auth/callback/github (for local dev)
+GITHUB_CLIENT_ID=your-github-client-id
+GITHUB_CLIENT_SECRET=your-github-client-secret
+
+# Better Auth Secret (generate a random string)
+# You can generate one with: openssl rand -base64 32
+BETTER_AUTH_SECRET=your-random-secret-key-here
+
+# GitHub Personal Access Token (optional, for git clone)
+# Create at: https://github.com/settings/tokens
+GITHUB_TOKEN=your-github-token
