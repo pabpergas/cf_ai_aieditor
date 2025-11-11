@@ -14,7 +14,7 @@ AI Code Editor is a serverless application that combines:
 - **Backend**: Cloudflare Workers (Edge Runtime)
 - **Database**: Cloudflare D1 (SQLite) + Durable Objects
 - **Storage**: Cloudflare R2 for file content
-- **AI**: OpenAI GPT-4 via Vercel AI SDK
+- **AI**: OpenAI GPT-4o via Cloudflare Agents SDK
 - **Auth**: Better-auth with GitHub OAuth
 - **Code Editor**: Monaco Editor
 - **Terminal**: WebContainer API
